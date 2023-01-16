@@ -1,0 +1,207 @@
+
+*{
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #4523cb, #9623cb);
+  
+  }
+
+
+
+header{
+    background-color: rgb(245,245,245);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.45em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+color: blueviolet;
+}
+
+#Visual-producto .container{
+    text-align: center;
+    padding: 200px 12px;
+
+} 
+
+#visual-blusa .container{
+    text-align: center;
+    padding: 200px 12px;
+
+} 
+
+#visual-sueter .container{
+    text-align: center;
+    padding: 200px 12px;
+
+} 
+
+
+
+#wrapper  {
+
+    font-family: verdana;
+    margin: 10px auto;
+    padding: 30px;
+    background: rgb(32, 29, 29);
+    font-size: 14px;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family:verdana;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+
+}
+
+label{
+    display: block;
+    font-size: 24px;
+    padding: 13px 0;
+    color: #fff;
+    text-shadow: 1px 1px 1px #9623cb;
+}
+
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+        
+    }
+   
+    header .container{
+    flex-direction: row;
+    justify-content: space-between;
+   } 
+
+   header nav{
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+
+   }
+
+   #visual-producto .container{
+    display: flex;
+    justify-content: center;
+
+   }
+
+   #visual-producto .texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   #visual-producto .img-container{
+    background-image: url("img/producto1.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 300px;
+   }
+
+
+
+   #visual-blusa .container{
+    display: flex;
+    justify-content: center;
+
+   }
+
+   #visual-blusa .texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   #visual-blusa .img-container{
+    background-image: url("img/blusaZ.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 300px;
+   }
+
+
+
+
+   #visual-sueter .container{
+    display: flex;
+    justify-content: center;
+
+   }
+
+   #visual-sueter .texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   #visual-sueter .img-container{
+    background-image: url("img/unisex.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 300px;
+   }
+
+   
+}
+
+
